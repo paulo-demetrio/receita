@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+*{margin: 0;
+padding: 0;
+
+    font-family: "Alice", serif;
+    font-weight: 900;
+    font-style: normal;
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+
+
+body{background-color:#291b1afb;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+background-image: url('../fotos/Página\ de\ receita.png');}
+
+
+
+li{margin-left: 80px;
+    color: #573A37;
+text-indent: 10px;}
+
+p{
+    color: #573A37;
+text-indent: 10px;
+margin-left: 40px;}
+
+    h1, h2 {color: #291B1A;
+   margin-left: 40px; }
+
+
+
+main{background-color:#F0E8C2;
+    border-radius: 20px;
+    height: 1440px;
+    width: 800px;
+margin: auto;
+padding: 0px 10px;
+}
+
+picture > img{background-position: center center;
+background-size: cover;
+background-attachment: local;
+height: 550px;
+width: 750px;
+margin: 20px;
+text-align: center;
+border-radius: 15px;}
+
+
+
+#footer{text-align: center;
+color: whitesmoke;
+margin:15px;}
